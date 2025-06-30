@@ -21,8 +21,8 @@ class Config:
         if self.settings.value("ai/default_model") is None:
             # Set defaults only if missing
             self.set_default_model("Gemini 1.5 Flash")
-            self.set_gemini_key("AIzaSyAcbmhXl4rpmynrMY-qUqthK2_skFTubfk")
-            self.set_huggingface_key("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")
+            self.set_gemini_key("________________")
+            self.set_huggingface_key("___________")
             self.set_theme_dark(True)
             self.set_dp_username("")
             self.set_dp_password("")
